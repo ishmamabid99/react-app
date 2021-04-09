@@ -1,12 +1,12 @@
 import React from "react"
 
-function Note(){
+function Note(pop){
 
     return(
 
       <div className ="note">
-        <h1>This is the title</h1>
-        <p>This is a paragraph</p>
+        <h1>{pop.title}</h1>
+        <p>{pop.content}</p>
       </div>
 
     );
